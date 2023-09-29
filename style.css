@@ -61,12 +61,16 @@ footer{
     grid-auto-flow: row;
 
     justify-content: center;
+
+    padding-bottom: 45px;
 }
 
 footer p{
     font-size: 32px;
     font-weight: 700;
     color: white;
+
+    margin: 90px 0 30px 0;
 }
 
 footer form{
@@ -85,8 +89,25 @@ footer form input{
     border: none;
     border-radius: 10px;
     padding: 15px;
-    margin: 30px 0;
+    margin: 15px 0;
 
     width: 500px;
     position: relative;
+}
+
+footer button{
+    font-size: 25px;
+    font-weight:  500;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px auto;
+
+    width: 300px;
+    background-color: #C07212;
+
+    cursor: pointer;
+    
 }
