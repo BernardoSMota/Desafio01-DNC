@@ -8,7 +8,7 @@
 header{
     background-color: #303030;
     color: #fff;
-    padding: 200px 0;
+    padding: 150px 0;
 }
 
 h1{
@@ -43,6 +43,7 @@ h1, header p{
     grid-auto-flow: column;
     align-items: center;
     justify-content: space-around;
+    gap: 15px;
     padding: 50px
 }
 
@@ -92,6 +93,7 @@ footer form input{
     margin: 15px 0;
 
     width: 500px;
+    height: 54px;
     position: relative;
 }
 
@@ -106,8 +108,18 @@ footer button{
     margin: 15px auto;
 
     width: 300px;
+    height: 54px;
     background-color: #C07212;
 
     cursor: pointer;
     
+    transition: all 0.3s ease;
+}
+
+footer button:hover{
+    transform: translateY(-5px);
+}
+
+footer button:active{
+    transform: translateY(-3px)
 }
